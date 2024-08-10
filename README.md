@@ -58,7 +58,7 @@
                     <p class="p1-footer"> Desenvolvido por Cristopher Felipe Sardagna </p>
                 </footer>
 
-                <a href="https://api.whatsapp.com/send?text=file:///C:/Users/Cristopher%20Sardagna/OneDrive/Desktop/Projeto%20Casa%20De%20Aluguel/index.html">
+                <a href="https://api.whatsapp.com/send?text=https://cristophersardagna.github.io/Resid-ncia-Sardagna/">
                     <img width="25" height="25" src="imagem/logo-whatsapp-verde-icone-ios-android-4096.png" target="_blank" alt="Whatsapp ">
                 </a>
 
