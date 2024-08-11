@@ -189,9 +189,23 @@ color: black;
     padding-top: 5px;
 }
 .p3-grid{
-    color: black;
+    color: white;
     font-size: 40px;
 }
 .img-planta{
     width: 100%;
+}
+#img-banheiro{
+    max-width: 100%;
+}
+.img-quarto{
+    max-width: 100%;
+    text-align: end;
+}
+.h2-sub-grid-3{
+    color: white;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
 }
