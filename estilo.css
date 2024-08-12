@@ -232,19 +232,19 @@ color: black;
 }
 
 .slide img{
-    width: 680px;
+    width: 730px;
 }
 
 .manual-navigation{
     position: absolute;
-    width: 680px;
+    width: 730px;
     margin-top: -40px;
     display: flex;
     justify-content: center;
 }
 
 .manual-btn{
-    border: 2px solid black;
+    border: 2px solid white;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
@@ -256,7 +256,7 @@ color: black;
 }
 
 .manual-btn:hover{
-    background-color: black;
+    background-color: white;
 }
 
 #radio1:checked ~ .first{
@@ -275,18 +275,45 @@ color: black;
     margin-left: -75%;
 }
 
+#radio5:checked ~ .first{
+    margin-left: -100%;
+}
+
+#radio6:checked ~ .first{
+    margin-left: -125%;
+}
+
+#radio7:checked ~ .first{
+    margin-left: -150%;
+}
+
+#radio8:checked ~ .first{
+    margin-left: -175%;
+}
+
+#radio9:checked ~ .first{
+    margin-left: -200%;
+}
+
+#radio10:checked ~ .first{
+    margin-left: -225%;
+}
+
+#radio11:checked ~ .first{
+    margin-left: -250%;
+}
+
 .navigation-auto div{
-    border: 2px solid black;
+    border: 2px solid blue;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-    
 }
 
 .navigation-auto{
     position: absolute;
-    width: 680px;
+    width: 730px;
     margin-top: 360px;
     display: flex;
     justify-content: center;
@@ -309,10 +336,38 @@ color: black;
 }
 
 #radio4:checked ~ .navigation-auto .auto-btn4{
-    background-color: black
+    background-color: black;
 }
+
+#radio5:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+#radio6:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+#radio7:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+#radio8:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+#radio9:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+#radio10:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+#radio11:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
 
 .detalhes{
     font-size: 25px;
-    text-align: center;
 }
