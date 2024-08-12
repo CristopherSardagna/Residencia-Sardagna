@@ -187,6 +187,7 @@ color: black;
     font-size: 40px;
     padding-bottom: 5px;
     padding-top: 5px;
+    
 }
 .p3-grid{
     color: white;
@@ -195,17 +196,121 @@ color: black;
 .img-planta{
     width: 100%;
 }
-#img-banheiro{
-    max-width: 100%;
-}
-.img-quarto{
-    max-width: 100%;
-    text-align: end;
+.img{
+    width: 100%;
 }
 .h2-sub-grid-3{
     color: white;
+
 }
 .titulo{
     color: white;
     font-size: 40px;
+}
+
+.slider{
+    margin: 0 auto;
+    width: 730px;
+    height: 365px;
+    overflow: hidden;
+}
+
+.slides{
+    width: 400%;
+    height: 400px;
+    display: flex;
+}
+
+.slides input{
+    display: none;
+}
+
+.slide{
+    width: 25%;
+    position: relative;
+    transition: 2s;
+}
+
+.slide img{
+    width: 730px;
+}
+
+.manual-navigation{
+    position: absolute;
+    width: 730px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: white;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+.navigation-auto div{
+    border: 2px solid blue;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.navigation-auto{
+    position: absolute;
+    width: 730px;
+    margin-top: 360px;
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background-color: black;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background-color: black;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background-color: black;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+    background-color: black;
+}
+
+.detalhes{
+    font-size: 25px;
 }
